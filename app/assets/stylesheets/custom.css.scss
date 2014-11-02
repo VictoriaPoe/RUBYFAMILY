@@ -19,8 +19,12 @@ html {
 
 body {
   padding-top: 60px;
-background: url ('http://www.pptback.com/uploads/red-and-black-design-backgrounds-powerpoint.jpg')
+  background-color: #090100;
+  background-image: url(http://www.nelsonchiropractic.com/wp-content/uploads/red-christmas-lights-background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
 }
+
 
 section {
   overflow: auto;
@@ -83,6 +87,7 @@ p {
   }
 }
 
+
 /* footer */
 
 footer {
@@ -90,6 +95,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
   color: $grayLight;
+
   a {
     color: $gray;
     &:hover {
@@ -216,6 +222,10 @@ input {
     border-top: 1px solid $grayLighter;
     &:last-child {
       border-bottom: 1px solid $grayLighter;
+      background-color: #090100;
+      background-image: url(http://www.nelsonchiropractic.com/wp-content/uploads/red-christmas-lights-background.jpg);
+      background-position: center top;
+      background-repeat: no-repeat;
     }
   }
 }
