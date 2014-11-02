@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Commenter:</b>
+  <%= @comment.commenter %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @comment.body %>
+</p>
+
+<!-- /posts/:post_id/comments/:id/edit -->
+<%= link_to 'Edit', edit_micropost_comment_path(@comment.micropost, @comment) %> |
+<!-- /posts/:post_id/comments/ -->
+<%= link_to 'Back', micropost_comments_path(@comment.micropost) %>

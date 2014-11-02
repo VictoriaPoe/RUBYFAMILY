@@ -61,5 +61,4 @@ gem 'gravtastic'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'acts_as_votable'
-gem 'acts_as_commentable'
+

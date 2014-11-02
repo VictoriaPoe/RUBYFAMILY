@@ -4,6 +4,7 @@ class MicropostsController < ApplicationController
 
   def create
     @micropost = current_user.microposts.build(micropost_params)
+
     if @micropost.save
       flash[:success] = "Micropost created!"
       redirect_to root_url
@@ -18,9 +19,12 @@ class MicropostsController < ApplicationController
     redirect_to root_url
   end
 
+  def show
 
+    @comment = Comment.new (micropost_params)
+  end
 
-  private
+    private
 
   def micropost_params
     params.require(:micropost).permit(:content)

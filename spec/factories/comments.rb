@@ -1,9 +1,9 @@
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
-  factory :comment, :class => 'Comments' do
-    content "MyText"
+  factory :comment do
+    commenter "MyString"
+    body "MyText"
     post nil
-    user nil
   end
 end

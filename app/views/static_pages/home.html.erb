@@ -1,4 +1,5 @@
 <% if signed_in? %>
+
     <div class="row">
       <aside class="span4">
 
@@ -11,6 +12,7 @@
         <section>
           <%= render 'shared/micropost_form' %>
         </section>
+
       </aside>
       <div class="span8">
         <h3>Micropost Feed</h3>
@@ -18,6 +20,9 @@
       </div>
     </div>
 <% else %>
+
+    <%= render 'shared/carousel' %>
+
     <div class="center hero-unit">
       <h1>Welcome to the Ruby on Rails Family Social Network</h1>
 
@@ -28,5 +33,6 @@
       </h2>
       <%= link_to "Sign up now!", signup_path,
                   class: "btn btn-large btn-primary" %>
-      </div>
+    </div>
+    <%= render 'shared/marketing' %>
 <% end %>

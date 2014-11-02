@@ -7,7 +7,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src = "http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
@@ -15,7 +15,10 @@
 <%= render 'layouts/header' %>
 
 <div class="container">
-  <%= render 'layouts/search' %>
+  <ol> </ol>
+
+  <li><%= render 'layouts/search' %></li>
+
   <% flash.each do |key, value| %>
       <div class="alert alert-<%= key %>"><%= value %></div>
   <% end %>
@@ -26,4 +29,3 @@
 
 </body>
 </html>
-
