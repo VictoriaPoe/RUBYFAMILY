@@ -18,17 +18,9 @@ html {
 }
 
 body {
-<<<<<<< HEAD
   padding-bottom: 50px;
   color: #5a5a5a;
   background-color: aliceblue;
-=======
-  padding-top: 60px;
-  background-color: #090100;
-  background-image: url(http://www.nelsonchiropractic.com/wp-content/uploads/red-christmas-lights-background.jpg);
-  background-position: center top;
-  background-repeat: no-repeat;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
 }
 
 
@@ -40,7 +32,6 @@ textarea {
   resize: vertical;
 }
 
-<<<<<<< HEAD
 
 
 .center {
@@ -49,12 +40,6 @@ textarea {
   h1 {
     margin-bottom: 100px;
     color: ghostwhite;
-=======
-.center {
-  text-align: center;
-  h1 {
-    margin-bottom: 10px;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
   }
 }
 
@@ -65,13 +50,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-<<<<<<< HEAD
   font-size: 2em;
   letter-spacing: 1px;
-=======
-  font-size: 3em;
-  letter-spacing: -2px;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
   margin-bottom: 30px;
   text-align: center;
 }
@@ -82,11 +62,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-<<<<<<< HEAD
   color: darkslategray;
-=======
-  color: $grayLight;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
 }
 
 p {
@@ -96,18 +72,14 @@ p {
 
 
 /* header */
-<<<<<<< HEAD
 header {
   color: #730E15;
 }
-=======
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-<<<<<<< HEAD
   color: lightgray;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -125,51 +97,20 @@ header {
 /* footer */
 
 footer {
-  background-image: url(http://www.ignitethechampion.dreamhosters.com/wp-content/uploads/2013/08/Abstract-blue-wallpaper-black-background-poze-imagini-desktop.jpg);
-  background-position: center;
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxkGXnoISMwrmC-tn26-0ZEDwj62_7HEY76pVKOHb4v8V2lmquXQ);
   margin-top: 50px;
   padding-top: 10px;
   border-top: 50px solid $grayMediumLight;
-  color: ghostwhite;
+  color: black;
   a {
-    color: ghostwhite;
+    color: black;
     &:hover {
-      color: ghostwhite;
-=======
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  line-height: 1;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
-}
-
-
-/* footer */
-
-footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
-
-  a {
-    color: $gray;
-    &:hover {
-      color: $grayDarker;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
+      color: black;
     }
   }
   small {
     float: left;
-<<<<<<< HEAD
-    color: ghostwhite;
-=======
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
+    color: black;
   }
   ul {
     float: right;
@@ -282,31 +223,15 @@ input {
 .users {
   list-style: none;
   margin: 0;
-<<<<<<< HEAD
-
-=======
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
   li {
     overflow: auto;
     padding: 10px 0;
     border-top: 1px solid $grayLighter;
     &:last-child {
       border-bottom: 1px solid $grayLighter;
-<<<<<<< HEAD
     }
   }
 }
-
-
-=======
-      background-color: #090100;
-      background-image: url(http://www.nelsonchiropractic.com/wp-content/uploads/red-christmas-lights-background.jpg);
-      background-position: center top;
-      background-repeat: no-repeat;
-    }
-  }
-}
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
 /* microposts */
 
 .microposts {
@@ -338,31 +263,20 @@ aside {
 /*search*/
 
 .form-search {
-<<<<<<< HEAD
   padding: 2px;
-=======
-  padding:0px 2px;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
   width: 200px;
 
 
 }
 .btn {
-<<<<<<< HEAD
 
-=======
-  position: left;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
   padding:4px 14px;
   background-color:#207cca;
 
 }
 .btn:hover {
   color:#207cca;
-<<<<<<< HEAD
 
-=======
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
 }
 
 
@@ -482,11 +396,7 @@ aside {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .span4 {
-<<<<<<< HEAD
   text-align: justify;
-=======
-  text-align: center;
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
 }
 .marketing h2 {
   font-weight: normal;
@@ -494,8 +404,5 @@ aside {
 .marketing .span4 p {
   margin-left: 10px;
   margin-right: 10px;
-<<<<<<< HEAD
   text-align: center;
-=======
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
 }
