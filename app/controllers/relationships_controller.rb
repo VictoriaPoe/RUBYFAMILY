@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class RelationshipsController < ApplicationController
   before_action :signed_in_user
 
@@ -20,26 +19,4 @@ class RelationshipsController < ApplicationController
     end
   end
 end
-=======
-class RelationshipsController < ApplicationController
-  before_action :signed_in_user
 
-  def create
-    @user = User.find(params[:relationship][:followed_id])
-    current_user.follow!(@user)
-    respond_to do |format|
-      format.html { redirect_to @user }
-      format.js
-    end
-  end
-
-  def destroy
-    @user = Relationship.find(params[:id]).followed
-    current_user.unfollow!(@user)
-    respond_to do |format|
-      format.html { redirect_to @user }
-      format.js
-    end
-  end
-end
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
