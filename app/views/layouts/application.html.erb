@@ -7,11 +7,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <!--[if lt IE 9]>
-<<<<<<< HEAD
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-=======
-  <script src = "http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
   <![endif]-->
 </head>
 <body>
@@ -19,17 +15,12 @@
 <%= render 'layouts/header' %>
 
 <div class="container">
-<<<<<<< HEAD
 <ul></ul>
-=======
-
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
   <li><%= render 'layouts/search' %></li>
 
   <% flash.each do |key, value| %>
       <div class="alert alert-<%= key %>"><%= value %></div>
   <% end %>
-<<<<<<< HEAD
 </div>
 
   <%= render 'layouts/footer' %>
@@ -38,14 +29,3 @@
 
 </body>
 </html>
-
-
-=======
-
-  <%= render 'layouts/footer' %>
-  <%= debug(params) if Rails.env.development? %>
-</div>
-
-</body>
-</html>
->>>>>>> 7dfc48e6a4cfc7ee922a09d3afb1d21ae7ecb985
